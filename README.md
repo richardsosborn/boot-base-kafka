@@ -1,5 +1,7 @@
 
-- This is an extendable icroservice to access Kafka. 
+- This is an extendable microservice to access Kafka. 
+
+- It could serve as a utility microservice that is controlled by an orchestration service.
 
 - Kafka topics are not created automatically by default, this application requires that you create the following topics manually.
 
