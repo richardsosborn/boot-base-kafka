@@ -1,9 +1,9 @@
 
-- This is an extendable microservice to access Kafka. 
+- This is an extendable service to access Kafka. 
 
-- It could serve as a utility microservice that is controlled by an orchestration service.
+- It could serve as a utility service that is controlled by an orchestration service.
 
-- Kafka topics are not created automatically by default, this application requires that you create the following topics manually.
+- Aapplication requires that you create the following topics using.....
 
 `$ bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic improving`<br>
 `$ bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 5 --topic partitioned`<br>
