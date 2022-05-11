@@ -1,5 +1,5 @@
 
-- Microservice to access Kafka. 
+- This is an extendable icroservice to access Kafka. 
 
 - Kafka topics are not created automatically by default, this application requires that you create the following topics manually.
 
