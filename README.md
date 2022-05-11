@@ -3,7 +3,7 @@
 
 - It could serve as a utility service that is controlled by an orchestration service.
 
-- Aapplication requires that you create the following topics using.....
+- Aaplication requires that you create topics using.....
 
 `$ bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic improving`<br>
 `$ bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 5 --topic partitioned`<br>
